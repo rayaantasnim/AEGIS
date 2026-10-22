@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Aegis-Outreach : High-Performance Autonomous Engine for Intelligence &
+      Signals
+    </title>
+
+    <!-- Global SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Aegis-Outreach is a high-performance autonomous engine for gathering intelligence and sending signals, housing a full-scale FastAPI asynchronous API gateway within a standalone main.py core script."
+    />
+    <meta
+      name="keywords"
+      content="FastAPI, Asynchronous API, Selenium Stealth, Pandas, NumPy, Python Backend, Aegis-Outreach"
+    />
+    <meta name="author" content="Rayaan Tasnim" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://github.com/rayaantasnim/Aegis-Outreach"
+    />
+    <meta
+      property="og:title"
+      content="Aegis-Outreach | Autonomous Engine for Gathering Intelligence & Sending Signals"
+    />
+    <meta
+      property="og:description"
+      content="Streamlined single-file Python framework combining FastAPI asynchronous API gateway with automated intelligence pipelines."
+    />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://github.com/rayaantasnim/Aegis-Outreach"
+    />
+    <meta name="twitter:title" content="Aegis-Outreach | Autonomous Engine" />
+    <meta
+      name="twitter:description"
+      content="Production-ready FastAPI backend and automated intelligence orchestration contained within a single Python script."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json" src="schema.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome v6 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GSAP & ScrollTrigger Plugin CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- STICKY NAVIGATION BAR -->
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <a href="#" class="brand-logo">
+          <span class="dot"></span> Aegis-Outreach
+        </a>
+
+        <!-- Pure CSS Hamburger Trigger -->
+        <button
+          class="hamburger"
+          id="hamburger-trigger"
+          aria-label="Toggle Navigation"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- GSAP OVERLAY NAVIGATION CANVAS -->
+    <div class="nav-overlay" id="nav-overlay">
+      <button
+        class="close-btn"
+        id="close-trigger"
+        aria-label="Close Navigation"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h1 class="navbar-heading">Navigation Topology</h1>
+
+      <ul class="overlay-links">
+        <li><a href="#hero" class="nav-link">Architecture Overview</a></li>
+        <li><a href="#pipelines" class="nav-link">02. Core Subsystems</a></li>
+        <li>
+          <a href="#characteristics" class="nav-link">03. Ten Engine Pillars</a>
+        </li>
+        <li>
+          <a href="#conclusion" class="nav-link">04. Dispatch & Repository</a>
+        </li>
+      </ul>
+
+      <a
+        href="https://github.com/rayaantasnim/Aegis-Outreach"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-primary"
+      >
+        <i class="fa-brands fa-github"></i> View GitHub Repository
+      </a>
+    </div>
+
+    <!-- HERO BANNER SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text-block">
+          <div class="hero-badge">
+            <i class="fa-solid fa-bolt"></i> Autonomous Intelligence Engine
+          </div>
+          <h1>
+            Autonomous Engine for Gathering Intelligence & Sending Signals
+          </h1>
+          <p>
+            Aegis-Outreach functions as a high-performance Autonomous Engine for
+            Gathering Intelligence and Sending Signals, purpose-built to
+            revolutionize backend engineering workflows. By eliminating
+            conventional multi-directory repository sprawl, it encapsulates a
+            full-scale FastAPI asynchronous API gateway alongside automated
+            intelligence pipelines directly inside a standalone main.py core
+            script. This advanced design successfully offloads heavy blocking
+            workloads—including headless data harvesting, complex matrix
+            filtering, and automated email dispatches—directly into background
+            execution threads, ensuring Python's primary event loop remains
+            completely unblocked and responsive under massive enterprise loads.
+          </p>
+          <div
+            style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem"
+          >
+            <a href="#pipelines" class="btn btn-primary">
+              Explore Core Subsystems <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a
+              href="https://github.com/rayaantasnim/Aegis-Outreach"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+            >
+              <i class="fa-brands fa-github"></i> Repository Access
+            </a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img
+            src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Autonomous Software Architecture Blueprint"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE PIPELINE ARCHITECTURES (VERTICAL LAYOUT) -->
+    <section class="pipeline-section" id="pipelines">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">System Design</span>
+          <h2>Four Core Subsystem Architectures</h2>
+          <p>
+            A unified single-file backend built upon asynchronous concurrency
+            gateways and robust automated dispatch frameworks.
+          </p>
+        </div>
+
+        <div class="pipeline-cards">
+          <!-- CARD 01 -->
+          <div class="pipeline-card">
+            <div class="pipeline-content">
+              <span class="pipeline-number">PASS 01</span>
+              <h3>Non-Blocking Concurrency Gateway</h3>
+              <p>
+                The Non-Blocking Concurrency Gateway harnesses FastAPI and
+                asyncio.to_thread() worker execution pools to seamlessly
+                decouple thread-bound synchronous operations from the primary
+                asynchronous event loop. By executing blocking input/output
+                tasks and database transactions inside dedicated background
+                workers, the architecture prevents connection drops and
+                eliminates latency bottlenecks during heavy traffic spikes. This
+                sophisticated concurrency model guarantees that concurrent
+                client requests are processed with lightning-fast
+                responsiveness, maintaining strict system stability across all
+                deployed cloud environments without compromising server
+                throughput.
+              </p>
+            </div>
+            <div class="pipeline-image">
+              <img
+                src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Concurrency Gateway Visual"
+              />
+            </div>
+          </div>
+
+          <!-- CARD 02 -->
+          <div class="pipeline-card">
+            <div class="pipeline-content">
+              <span class="pipeline-number">PASS 02</span>
+              <h3>Rapid-Exit Data Harvesting Engine</h3>
+              <p>
+                The Rapid-Exit Data Harvesting Engine integrates
+                selenium-stealth to mask headless chrome browser instances and
+                slip past advanced anti-bot firewalls undetected. By randomizing
+                browser vendor fingerprints, viewport parameters, and user-agent
+                strings, it retrieves raw Document Object Model page sources in
+                a single step to instantly minimize memory footprint and
+                execution overhead. Once the target markup is securely buffered
+                into local memory, the driver executes an immediate browser
+                teardown, preserving vital system RAM and preventing memory
+                leaks during large-scale scraping operations.
+              </p>
+            </div>
+            <div class="pipeline-image">
+              <img
+                src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Data Harvesting Engine Logic"
+              />
+            </div>
+          </div>
+
+          <!-- CARD 03 -->
+          <div class="pipeline-card">
+            <div class="pipeline-content">
+              <span class="pipeline-number">CONFIG 03</span>
+              <h3>Vectorized Matrix Prioritization Tiers</h3>
+              <p>
+                The Vectorized Matrix Prioritization Tiers employ
+                high-performance Pandas DataFrames and core NumPy array
+                operations—such as conditional selection via np.select and
+                high-speed matrix dot products via np.dot—to standardize lead
+                data and calculate scaling priority metrics instantaneously. By
+                replacing slow, iterative dictionary loops with compiled C-level
+                vector calculations, the engine processes thousands of data
+                attributes in milliseconds. This vectorization strategy
+                optimizes scoring precision, enhances data hygiene, and
+                accelerates decision-making pipelines across complex datasets.
+              </p>
+            </div>
+            <div class="pipeline-image">
+              <img
+                src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Matrix Prioritization Code"
+              />
+            </div>
+          </div>
+
+          <!-- CARD 04 -->
+          <div class="pipeline-card">
+            <div class="pipeline-content">
+              <span class="pipeline-number">AUTH 04</span>
+              <h3>Secure OAuth2 Automated Dispatch Gateway</h3>
+              <p>
+                The Secure OAuth2 Automated Dispatch Gateway constructs fully
+                RFC 2822 compliant, URL-safe Base64-encoded MIME payloads
+                designed for secure enterprise communications. It pipes
+                transmission requests directly into the official Gmail API
+                wrapped securely inside automated exponential backoff handlers
+                to manage transient network failures gracefully. By maintaining
+                strict authentication token refreshes and encrypting
+                transmission data in transit, this gateway guarantees reliable,
+                tamper-proof message delivery for all automated outreach
+                campaigns and system notifications.
+              </p>
+            </div>
+            <div class="pipeline-image">
+              <img
+                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Security Dispatch Gateway"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEN CHARACTERISTICS SECTIONS -->
+    <section class="characteristics-section" id="characteristics">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Deep Dive</span>
+          <h2>Ten Core Technical Characteristics</h2>
+          <p>
+            Architectural highlights showcasing how single-file constraints
+            drive superior software design and intelligence processing
+            performance.
+          </p>
+        </div>
+
+        <!-- ROW 01 -->
+        <div class="char-row">
+          <div class="char-text">
+            <div class="char-icon">
+              <i class="fa-solid fa-folder-minus"></i>
+            </div>
+            <h3>01. Multi-Directory Repository Sprawl Elimination</h3>
+            <p>
+              Isolating API frameworks, headless scrapers, and matrix math
+              pipelines into a single script completely eradicates the
+              architectural overhead associated with complex multi-directory
+              project layouts. Developers no longer need to manage fragmented
+              module imports, scattered configuration files, or complicated
+              relative path bindings across disparate folders. This streamlined
+              single-file paradigm drastically simplifies version control,
+              accelerates local debugging, and allows rapid containerization or
+              deployment of the entire application ecosystem with absolute ease.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Clean Code File Structure"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 02 -->
+        <div class="char-row reverse">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-sliders"></i></div>
+            <h3>02. Asynchronous Event Loop Decoupling</h3>
+            <p>
+              Preventing CPU and I/O bound worker operations from stalling
+              incoming HTTP traffic is critical for maintaining high web server
+              responsiveness. By routing blocking tasks through isolated
+              background threads and asynchronous queues, Aegis-Outreach ensures
+              that incoming client requests are handled instantly. This
+              decoupling mechanism protects the core event loop from resource
+              starvation, guaranteeing seamless scalability and consistent
+              low-latency performance under intense operational workloads.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Asynchronous Event Loop Matrix"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 03 -->
+        <div class="char-row">
+          <div class="char-text">
+            <div class="char-icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3>03. Selenium-Stealth Anti-Bot Evasion</h3>
+            <p>
+              Masking vendor strings, custom window parameters, and randomized
+              user-agents allows headless browser instances to successfully
+              bypass sophisticated web security blocks. Selenium-stealth
+              injection modifies navigator properties and WebDriver flags at
+              runtime, tricking modern anti-bot firewalls into treating
+              automated scraping scripts as legitimate human users. This robust
+              evasion strategy ensures uninterrupted data harvesting across
+              heavily protected target domains without triggering rate limits or
+              permanent IP bans.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Stealth Evasion Network"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 04 -->
+        <div class="char-row reverse">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-filter"></i></div>
+            <h3>04. C-Optimized LXML Document Ingestion</h3>
+            <p>
+              Passing raw HTML memory buffers directly to BeautifulSoup4 models
+              backed by C-optimized lxml parsers enables lightning-fast document
+              ingestion and parsing operations. By leveraging compiled C
+              libraries beneath high-level Python abstractions, the engine
+              extracts targeted DOM nodes and attributes instantaneously. This
+              significant performance boost reduces CPU utilization during heavy
+              document parsing phases and allows immediate browser teardowns,
+              maximizing overall system efficiency, memory conservation, and
+              computational throughput.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Document Ingestion Process"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 05 -->
+        <div class="char-row">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>05. Vectorized Data Wrangling Arrays</h3>
+            <p>
+              Using core Pandas string vector matrices to clean up, normalize,
+              and format parsed fields replaces slow iterative row-by-row
+              processing with high-speed vectorized transformations. By
+              executing bulk string slicing, regex matching, and datatype
+              casting across entire DataFrame columns simultaneously, data
+              wrangling bottlenecks are completely eliminated. This array-based
+              approach ensures that incoming intelligence data is structured,
+              validated, and ready for analytical scoring in a fraction of
+              standard processing time.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Vectorized Data Arrays"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 06 -->
+        <div class="char-row reverse">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-route"></i></div>
+            <h3>06. Non-Iterative NumPy Dot Product Scoring</h3>
+            <p>
+              Executing high-speed matrix prioritization scores based on custom
+              employee thresholds requires eliminating traditional Python
+              looping constructs. By utilizing NumPy dot products and vectorized
+              array dot multiplications, the system computes multi-factor
+              priority scores across extensive datasets in a single compiled
+              step. This non-iterative mathematical approach drastically
+              accelerates lead ranking accuracy, providing real-time
+              intelligence scoring without straining server memory or CPU
+              resources.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="NumPy Dot Product Scoring"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 07 -->
+        <div class="char-row">
+          <div class="char-text">
+            <div class="char-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>07. URL-Safe Base64 MIME Payloads</h3>
+            <p>
+              Building programmatic message architectures using official
+              email.mime wrappers guarantees strict adherence to internet mail
+              standards. By encoding message bodies, subject lines, and
+              attachment buffers into URL-safe Base64 formats, the outreach
+              engine ensures secure, corruption-free transmission through
+              enterprise mail servers. This rigorous payload construction
+              prevents character encoding errors and satisfies all protocol
+              requirements mandated by modern secure mail transfer APIs.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Base64 MIME Payloads"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 08 -->
+        <div class="char-row reverse">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-desktop"></i></div>
+            <h3>08. Resilient Exponential Backoff Retry Loops</h3>
+            <p>
+              Gracefully managing HTTP 429 rate exception responses and
+              transient 5xx server drops is essential for maintaining unattended
+              automation pipelines. Aegis-Outreach incorporates intelligent
+              exponential backoff retry algorithms that dynamically calculate
+              wait times between failed network requests. This defensive retry
+              strategy prevents API quota exhaustion, absorbs temporary network
+              outages, and guarantees high operational reliability during
+              extended data gathering and dispatch sessions.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Resilient Retry Loops"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 09 -->
+        <div class="char-row">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-wave-square"></i></div>
+            <h3>09. Non-Blocking Thread-Safe Queue Logging</h3>
+            <p>
+              Routing system stdout streams through queue memory spaces
+              completely eliminates file lock contentions and logging
+              bottlenecks across concurrent worker threads. By decoupling log
+              emission from synchronous disk I/O operations using thread-safe
+              memory queues, the application records debug traces, warning
+              flags, and execution metrics instantaneously without performance
+              degradation. This robust architecture ensures high logging
+              fidelity and prevents thread blocking during high-volume
+              asynchronous operations.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Thread-Safe Queue Logging"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ROW 10 -->
+        <div class="char-row reverse">
+          <div class="char-text">
+            <div class="char-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>10. Automatic OpenAPI & Swagger Diagnostics</h3>
+            <p>
+              Serving interactive developer testing routes over inline FastAPI
+              engines provides immediate visibility into endpoint specifications
+              and operational schemas. The framework automatically generates
+              comprehensive OpenAPI documentation and interactive Swagger UI
+              interfaces directly from route annotations and Pydantic models.
+              This built-in diagnostic capability empowers engineers to test
+              payload structures, verify response codes, and debug API endpoints
+              seamlessly without deploying external documentation services.
+            </p>
+          </div>
+          <div class="char-img">
+            <div class="char-img-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="OpenAPI Diagnostics Server"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCLUSION SECTION -->
+    <section class="conclusion-section" id="conclusion">
+      <div class="container">
+        <div class="conclusion-box">
+          <div class="conclusion-text">
+            <h2>Redefining Autonomous Engine Performance</h2>
+            <p>
+              Wrap up the architectural goals of Aegis-Outreach—demonstrating
+              that compact, single-file scripts can safely orchestrate intensive
+              distributed automation tasks, clean matrix data at scale, and
+              handle secure enterprise communications without layout complexity.
+              By unifying an asynchronous FastAPI gateway, headless stealth
+              scrapers, vectorized Pandas/NumPy pipelines, and secure OAuth2
+              dispatch mechanisms into a single standalone script,
+              Aegis-Outreach establishes a powerful new benchmark for efficient,
+              maintainable, and high-performance Python backend engineering.
+            </p>
+            <div style="margin-top: 2rem">
+              <a
+                href="https://github.com/rayaantasnim/Aegis-Outreach"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                <i class="fa-brands fa-github"></i> Access Repository on GitHub
+              </a>
+            </div>
+          </div>
+          <div class="conclusion-img-wrapper">
+            <img
+              src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Engineering Team Collaboration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MINIMALISTIC FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p class="footer-author"><center>
+          Authorized by Rayaan Tasnim with precision <br>
+          © Project Aegis-Outreach 2026; All rights reserved <br> 
+          Powered by Olympiad Edge
+        </center></p>
+      </div>
+    </footer>
+
+    <!-- INTERACTIVITY & GSAP SCROLLTRIGGER INTERACTION LAYER -->
+    <script src="script.js"></script>
+  </body>
+</html>
